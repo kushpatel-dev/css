@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin-top: 10px;
+}
+h1{
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(160, 235, 238);
+    background-image: url("https://cdn.vectorstock.com/i/1000v/90/68/white-dots-on-black-vector-9499068.avif");
+    background-size:contain;
+}
+p{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: blueviolet;
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
