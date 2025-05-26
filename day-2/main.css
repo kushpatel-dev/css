@@ -1,0 +1,63 @@
+div {
+    height: 25rem; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.5rem; 
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    color: darkred;
+    background-color: rgba(250, 225, 192, 0.8);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    font-size: 2rem; 
+    padding: 1em; 
+    border-radius: 0.75rem; 
+}
+
+
+.handjet {
+    font-family: 'Handjet', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 1.4rem;
+    font-family: monospace;
+    font-style: oblique;
+    color: rgb(169, 94, 88);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1em; 
+    border-radius: 0.5rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6em; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(169, 94, 88);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1.25em;
+    border-radius: 0.725rem;
+}
+
+body {
+    background-image: url("https://st2.depositphotos.com/6597960/10056/i/450/depositphotos_100560672-stock-photo-post-blog-social-media.jpg");
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 0.0625rem; 
+}
+img{
+    margin: auto;
+    display: block;
+}
