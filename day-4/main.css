@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0%;
+   
+}
+
+.sticky{
+
+        position:sticky;
+        top: 0px;
+        background-color: beige;
+        text-align: center;
+        height: 38px;
+        z-index: 1;
+}
+.btn{
+    background-color: rgb(158, 230, 181);
+    color: chocolate;
+    border: 3px rebeccapurple solid;
+    padding: 3px;
+    position: relative;
+    margin-top: 35px;
+    top: px;
+    left: 130px;
+    height: 30px;
+    width: 50px;
+}
+.container{
+    height: 100px;
+    width: 300px;
+    background-color: bisque;
+    position: relative;
+    margin: 500px;
+    padding: 20px;
+}
