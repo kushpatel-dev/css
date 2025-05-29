@@ -1,0 +1,131 @@
+/* === Base Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #E7EFC7;
+    color: #3B3B1A;
+  }
+  
+  /* === Grid Layout (Mobile First) === */
+  body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-areas:
+    "head"
+    "side"
+      "s1"
+      "s2"
+      "s3"
+      "main"
+      "foot";
+  }
+  
+  /* === Sidebar === */
+  aside {
+    grid-area: side;
+    background-color: #AEC8A4;
+    color: #3B3B1A;
+    padding-left: 20px;
+    padding-top: 70px;
+    /* margin-top: 8% */
+  }
+  aside h2 {
+    margin-bottom: 10px;
+  }
+  aside ul {
+    list-style: none;
+  }
+  aside li {
+    margin: 8px 0;
+  }
+  aside a {
+    color: #3B3B1A;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  aside a:hover {
+    color: #8A784E;
+    text-decoration: underline;
+  }
+  
+  /* === Header === */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px; /* Set your desired fixed height */
+    background-color:rgba(226, 251, 220, 0.67);
+    color: #3B3B1A;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 100; 
+  }
+  
+  /* === Sections === */
+  section:nth-of-type(1) {
+    grid-area: s1;
+    background-color: #ced7b4;
+    padding: 20px;
+  }
+  section:nth-of-type(2), .ul1 {
+    grid-area: s2;
+    background-color: #b8c0a0;
+    padding: 20px;
+    list-style-type: none;
+  }
+  section:nth-of-type(3) {
+    grid-area: s3;
+    background-color: #8a936f;
+    color: #2e2f27;
+    padding: 20px;
+  }
+  
+  /* === Main Content === */
+  main {
+    grid-area: main;
+    background-color: #E7EFC7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* === Footer === */
+  footer {
+    grid-area: foot;
+    background-color: #3B3B1A;
+    color: #E7EFC7;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* === Responsive Grid (Tablet/Desktop) === */
+  @media only screen and (min-width: 768px) {
+    body {
+      grid-template-columns: 19% 27% 27% 28%;
+      grid-template-rows: 8% 30% auto 10%;
+      grid-template-areas:
+        "head head head head"
+        "side s1 s2 s3"
+        "side main main main"
+        "side foot foot foot";
+       
+    }
+    aside {
+        grid-area: side;
+        background-color: #AEC8A4;
+        color: #3B3B1A;
+      }
+  }
+  
+  
