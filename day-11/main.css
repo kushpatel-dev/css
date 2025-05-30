@@ -1,0 +1,106 @@
+.b{
+    color: azure;
+    background-color: black;
+    border: none;
+    transition: all 0.4s 0.5s;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin: 0 10px;
+    margin-bottom: 100px;
+
+}
+.btn1:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+}
+
+.btn2:hover{
+    background-color: rgb(157, 125, 199);
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+}
+
+.btn3:hover{
+    background-color: rgb(94, 161, 19);
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    
+}
+
+.btn4:hover{
+    background-color: rgb(53, 79, 163);
+    transform: scale(1.1);
+    transition-timing-function: linear;
+    
+}
+
+.btn5:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+    transition-timing-function: cubic-bezier(.09,-0.2,0,1.5);
+    
+}
+
+
+/* ✅ Importing a clean modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    max-width: 300px;
+    background-color: #b0e44f;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 60px auto;
+    box-shadow: 0 12px 20px rgba(38, 128, 35, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card .img {
+    width: 100%;
+    height: auto;
+}
+
+.card .img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover .img img {
+    transform: translate(-20px, -30px) scale(1.6) rotate(-20deg);
+    transition-timing-function: ease-in-out;
+}
+
+.card .data-section {
+    padding: 20px 10px 10px;
+}
+
+.card .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin: 10px 0 5px;
+}
+
+.card .price {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3b3b3b;
+    margin: 5px 0 15px;
+}
+
+.card .discription {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+}
